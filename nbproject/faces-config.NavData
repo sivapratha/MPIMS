@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="pages/header_home.jsp" x="650" y="600" zoom="true"/>
+        <Node id="doctorInfo/New.jsp" x="900" y="300" zoom="true"/>
+        <Node id="pages/viewDoctor.jsp" x="400" y="450" zoom="true"/>
+        <Node id="pages/headers.jsp" x="1900" y="300" zoom="true"/>
+        <Node id="pages/header.jsp" x="1400" y="450" zoom="true"/>
+        <Node id="city/Detail.jsp" x="400" y="750" zoom="true"/>
+        <Node id="city/List.jsp" x="650" y="150" zoom="true"/>
+        <Node id="hospital/New.jsp" x="400" y="1050" zoom="true"/>
+        <Node id="login/New.jsp" x="150" y="450" zoom="true"/>
+        <Node id="category/New.jsp" x="150" y="150" zoom="true"/>
+        <Node id="specialization/New.jsp" x="400" y="150" zoom="true"/>
+        <Node id="locality/Detail.jsp" x="650" y="300" zoom="true"/>
+        <Node id="hospital/List.jsp" x="400" y="600" zoom="true"/>
+        <Node id="category/Detail.jsp" x="400" y="300" zoom="true"/>
+        <Node id="category/Edit.jsp" x="650" y="750" zoom="true"/>
+        <Node id="category/List.jsp" x="150" y="750" zoom="true"/>
+        <Node id="pages/doctorDetail.jsp" x="1150" y="450" zoom="true"/>
+        <Node id="specialization/List.jsp" x="2150" y="150" zoom="true"/>
+        <Node id="pages/menu.jsp" x="650" y="450" zoom="true"/>
+        <Node id="pages/login.jsp" x="1650" y="450" zoom="true"/>
+        <Node id="login/List.jsp" x="1650" y="300" zoom="true"/>
+        <Node id="locality/List.jsp" x="1400" y="150" zoom="true"/>
+        <Node id="login/Edit.jsp" x="150" y="1050" zoom="true"/>
+        <Node id="locality/New.jsp" x="1150" y="600" zoom="true"/>
+        <Node id="specialization/Edit.jsp" x="150" y="900" zoom="true"/>
+        <Node id="doctorInfo/Detail.jsp" x="150" y="1200" zoom="true"/>
+        <Node id="doctorInfo/List.jsp" x="150" y="300" zoom="true"/>
+        <Node id="hospital/Detail.jsp" x="650" y="900" zoom="true"/>
+        <Node id="welcomeJSF.jsp" x="1900" y="150" zoom="true"/>
+        <Node id="locality/Edit.jsp" x="900" y="450" zoom="true"/>
+        <Node id="doctorInfo/Edit.jsp" x="900" y="600" zoom="true"/>
+        <Node id="city/New.jsp" x="1150" y="150" zoom="true"/>
+        <Node id="login/Detail.jsp" x="900" y="750" zoom="true"/>
+        <Node id="pages/searchlist.jsp" x="1400" y="300" zoom="true"/>
+        <Node id="index.xhtml" x="1650" y="150" zoom="true"/>
+        <Node id="city/Edit.jsp" x="400" y="900" zoom="true"/>
+        <Node id="hospital/Edit.jsp" x="1150" y="300" zoom="true"/>
+        <Node id="specialization/Detail.jsp" x="150" y="600" zoom="true"/>
+        <Node id="pages/footer.jsp" x="900" y="150" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>
