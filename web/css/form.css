@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+form{
+    margin:0;
+    padding: 0;
+}
+form.loginContent label {
+    color: #323D73;
+    width: 74px;
+    font-size:13px;
+}
+label{
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+        width: 225px;
+}
+
+input{
+    padding: 0px;
+    font-size: 14px;
+    color: #333;
+    /*background: #FCFCFC;
+    border: 1px solid #CCC;*/
+    width: 225px;
+    height: 24px;
+}
+input.btn{
+    text-transform: capitalize;
+    /*color: #000;*/
+    height: 30px;
+    width: 115px;
+    padding: 0;
+    /*border: 0;*/
+    font-size: 12px;
+}
+
+input.chkbox{
+    width: auto;
+    border: none;
+    width: 25px;
+}
+
+input.accountselect{
+    width: 80px;
+}
+
+input.corporate{
+    width: 194px;
+}
+input.searchbtn{
+    text-transform: capitalize;
+    /*color: #000;*/
+    height: 25px;
+    width: 132px;
+    padding: 0;
+    /*border: 0;*/
+    font-size: 12px;
+}
+.logoutSuccess{
+   /* color:#FFF;
+     background:#006b8c;
+    list-style:none;
+    display:block;
+    width:100%;
+    padding:3px;
+    margin-bottom:8px;*/
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+
+}
+.errorLogin{
+    background-color: #FFEBE8;
+    border-color: #CC0000;
+}

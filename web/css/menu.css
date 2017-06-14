@@ -1,0 +1,137 @@
+
+/* Root = Horizontal, Secondary = Vertical */
+ul#navmenu {
+  margin: 0 auto;
+  padding: 0;
+
+  width: 908px; /*For KHTML initial 908*/
+
+
+   border-right: 1px solid #CCCCCC;
+  width: 981px; /*For KHTML*/
+
+  float:left;
+  list-style: none;
+  height: 37px;
+  background: url(../images/login_hbg.gif) repeat-x bottom;
+}
+
+ul#navmenu li{
+  margin: 0;
+  border: none;
+  padding: 0;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+}
+
+ul#navmenu ul {
+  margin: 0;
+  border: 0 none;
+  width: 100px;
+  list-style: none;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 37px;
+ 
+
+
+}
+
+ul#navmenu ul:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#navmenu ul li{
+  width: 190px;
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important;
+  display: inline; /*For IE*/
+}
+
+/* Root Menu */
+ul#navmenu a, ul#navmenu a.right{
+  padding: 9px 14px 10px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+  color: #575757;
+  font:12px/18px Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  height: auto !important;
+  background: url(../images/login_hbg.gif) repeat-x bottom;
+  height: 0%; /*For IE*/
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #FFF;
+}
+
+ul#navmenu a.right{
+	padding: 7px 18px 7px 19px;
+	border-right: 1px solid #FFF;
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu a:hover, 
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+  color: #000;
+  background: #DDD;
+}
+
+/* 2nd Menu */
+ul#navmenu ul a{
+  padding: 4px 10px;
+}
+
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+  float: none;
+  background: #ddd;
+  border-top:#FFF solid 1px;
+  border-bottom:#CCC solid 1px;
+  margin:0;
+  text-transform:none;
+  color: #000;
+  font-weight: normal;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+  background: #EFEFEF;
+  color: #000;
+}
+
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul {
+  display: block;
+}

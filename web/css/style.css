@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	margin: 0;
+	padding: 0;
+	background: #FFF url(../images/bg.gif) repeat-x top;
+	font: 14px/18px Arial, Helvetica, sans-serif;
+	color: #000;
+}
+
+html, div, table, h1, h2, h3, h4, ul, li, p, span, ol{
+	margin: 0;
+	padding: 0;
+}
+a{
+    color:#1c5681;
+    text-decoration:none;
+}
+h1{
+	font-size:22px;
+	color:#323D73;
+	padding: 5px 0 10px 0;
+	display: block;
+        border-bottom: 1px dotted #CCC;
+            margin-bottom: 10px;
+        font-weight: bold;
+}
+
+h2{
+	font-size:14px;
+	color: #333;
+	padding: 10px 0;
+	display: block;
+}
+
+h3{
+	font-size:14px;
+	color: #333;
+	padding: 5px 10px;
+	display: block;
+}
+
+#mainWrapper{
+	
+	
+	width: 980px;
+	margin: 0 auto;
+}
+
+#header{
+	margin:0;
+	padding:0;
+	float:left;
+
+}
+
+#navigation{
+	margin:0px;
+	padding:0px;
+}
+
+#container{
+	padding:15px 20px 30px 20px;
+        background:#fff;
+           border-right: 1px solid #CCCCCC;
+           border-left: 1px solid #CCCCCC;
+           border-bottom: 1px solid #CCCCCC;
+               border-radius: 0 0 10px 10px;
+               -moz-border-radius:  0 0 10px 10px;
+        
+}
+
+
+table.content th{
+	background: #CCC;
+	text-align: left;
+    background: url(../images/login_hbg.gif) repeat-x bottom;
+}
+
+table.content td{
+	background: #FFF;
+	text-align: left;
+        height: 30px;
+}
+
+table.actable td{
+	background: #EFEFEF;
+}
+
+.errorMessage{
+    color: red;
+    font-weight:bold;
+    margin-left: 5px;
+}
+.successMessage{
+    display:block;
+    height:auto;
+    /*line-height:46px;*/
+    padding-top:17px;
+    padding-bottom:17px;
+    padding-left:5px;
+    font-size:14px;
+    list-style-type:none;
+    color: #006b8c;
+    font-weight:bold;
+    width:625px;
+
+}
+
+
+table.content table{
+    width: 100%;
+}
+
+table.tblock{
+    border: 1px solid #DDD;
+}
+table.accountSelect{
+    border: 1px solid #DDD;
+}
+table.accountSelect input{
+    width: 80px;
+    float: left;
+}
+
+
+table.content table.rich-calendar-exterior{
+    width: 18%;
+}
+
+.rich-calendar-button{
+    padding: 0 0 0 2px;
+}
+
+table.search th{
+	background: #CCC;
+	text-align: left;
+    background: url(../images/login_hbg.gif) repeat-x bottom;
+     padding: 0 0 0 0px;
+
+    /*padding: 0 0 0;*/
+
+}
+
+table.search td{
+	background: #FFF;
+	text-align: left;
+}
+#footer, #footer a{
+	padding: 30px 0;
+	text-align:center;
+        clear:both;
+        color:#fff;
+        font-size:11px;}
+
+#forbg{
+       min-height:625px;
+        background:url(../images/footer-bg.png) repeat-x bottom;
+}
+#footer p{
+text-align:center;
+}
+
+
+/* form selectors */
+form.loginContent{
+	width: 260px;
+	padding: 20px 40px;
+	background: #fafafa url(../images/login_bg.gif) no-repeat left top;
+	border: 1px solid #ccc;
+	margin:10px 30px 20px 60px;
+        float:left;
+        height:210px;
+          border-radius: 10px;
+          -moz-border-radius: 10px;
+}
+
+form.loginContent label,
+form.loginContent input {
+    color: #666666;
+    font-size: 15px;
+    margin: 3px 0;
+    padding: 3px;
+    width: 150px;
+}
+
+form.loginContent label {
+	width: 64px;
+	color: #323d73;
+	/*color: #000000;*//* changed for ime*/
+}
+
+form.loginContent label.remember {
+	width: 120px;
+	color: #fff;
+}
+
+form.loginContent input.text {
+	width: 202px;
+	border: 1px solid #035162;
+	font-size: 11px;
+	color: #000000;
+	padding: 3px 2px;
+}
+
+form.loginContent input.button {
+	width: 55px;
+	border-left: 1px solid #6296DC;
+	border-top: 1px solid #6296DC;
+	border-right: 1px solid #011B52;
+	border-bottom: 1px solid #011B52;
+	font-size: 14px;
+	color: #fff;
+	background: #2767B8;
+	padding: 3px;
+	margin: 3px 0 10px 0;
+	text-align: center;
+	cursor: pointer;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#container a:link, #container a:visited, #container a:active {
+    background: none repeat scroll 0 0 #f8f8f8;
+    border: 1px solid #e5e5e5;
+    color: #111111;
+    font-weight: bold;
+    margin: 10px!important;
+    padding: 5px 10px;
+    text-decoration: none;
+    width: 60px;
+}
+#hometable{
+    margin-top:10px;
+    font-family:arial;
+    font-size:12px;
+}
+#hometable td{
+
+    padding:3px 12px;
+}
+#hometable select{
+    width:130px;
+    padding:4px;
+    color: #666666;
+}
+thead{
+    margin:20px 0!important;
+}
+#loginbtn input{
+    background: none repeat scroll 0 0 #1863A5;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+    height: 31px;
+    padding: 2px;
+    text-transform: uppercase;
+    width: 95px;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+#mainWrapper form {
+    margin-bottom:0;
+}
+.topRt{
+    background: none repeat scroll 0 0 transparent;
+    float: right!important;
+    position: absolute;
+    text-align: right;
+    width:975px;
+    margin-top:7px;
+}
+.topRt .test{
+    float:right;
+}
+#errormsg{
+    background:red;
+    color:#fff;
+    padding:0px 10px;
+        font-size: 12px;
+    font-style: italic;
+}
